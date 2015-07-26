@@ -2,7 +2,7 @@
 ## cacheSolve function computes the inverse of the special "matrix" returned by makeCacheMatrix function.
 
 ##Creates a special "matrix" object that can cache its inverse
-## <<-
+## "<<-" operator can be used to assign a value to an object in an environment that is different from the current environment
 
 makeCacheMatrix <- function(x = matrix()) {
     inverseMatrix <- NULL
